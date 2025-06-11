@@ -1,6 +1,24 @@
 site_name: Sistemas Informáticos
+site_author: Carlos Mestre Ferrández
+site_description: Programación Didáctica del módulo de Sistemas Informáticos - 1º DAW
 theme:
   name: material
+  palette:
+    primary: blue
+    accent: indigo
+  language: es
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
 nav:
   - Inicio: index.md
   - Unidad 1: unidad1.md
@@ -9,3 +27,25 @@ nav:
   - Unidad 4: unidad4.md
   - Unidad 5: unidad5.md
   - Unidad 6: unidad6.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - toc:
+      permalink: true
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tuusuario/sistemas_informaticos
+      name: GitHub
+
+plugins:
+  - search
