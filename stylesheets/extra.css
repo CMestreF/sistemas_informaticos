@@ -1,4 +1,0 @@
-.md-typeset details[open] > summary:has(> .admonition-title:has(> strong:contains("RAT")))::before {
-    display: none;
-  }
-  
