@@ -18,10 +18,12 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+  copyright: "© 2025 Carlos Mestre. Todos los derechos reservados."
   favicon: img/favicon.ico
   logo: img/favicon.png
+  
 nav:
-  - Resumen del módulo: index.md
+  - Visión general del módulo: index.md
   - Unidad 1: unidad1.md
   - Unidad 2: unidad2.md
   - Unidad 3: unidad3.md
