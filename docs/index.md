@@ -43,7 +43,7 @@ Esta programación integra **retos del siglo XXI** y promueve los **Objetivos de
 
 ---
 
-### 📊 Evaluación competencial por Resultados de Aprendizaje
+## 📊 Evaluación competencial por Resultados de Aprendizaje
 
 ??? info "🧪 RA1 — Evalúa sistemas informáticos, identificando sus componentes y características (25%)"
 
@@ -182,6 +182,33 @@ Nuestro módulo se integra de forma transversal con otros módulos de primer cur
 ## 📚 Metodología
 
 Se emplearán metodologías activas: ABP, retos, simulaciones, flipped classroom y gamificación. La evaluación es contínua, formativa y adaptada al progreso de cada estudiante.
+
+---
+## 🔄 Promoción
+
+Conforme al **artículo 14 de la Orden 8/2025, de 22 de abril**, que regula la evaluación del proceso de enseñanza-aprendizaje en los ciclos formativos de Formación Profesional en la Comunitat Valenciana, se establecen los siguientes criterios:
+
+### ✅ Condiciones para promocionar a segundo curso
+
+- El alumnado promocionará a segundo curso cuando haya superado **al menos el 80 % del total de horas lectivas del primer curso**.
+- Si ha superado el **50 %** de las horas del primer curso, podrá matricularse en módulos de segundo hasta un **máximo de 1000 horas**, siempre que:
+    - Exista disponibilidad en el centro tras el procedimiento de admisión.
+    - Se cuente con autorización expresa de la Inspección de Educación.
+
+### 📌 Casos especiales
+
+- Si el alumnado **no se incorpora al periodo de formación en empresa** por causas justificadas, desarrollará el curso íntegro en el centro educativo.
+- Durante ese periodo realizará **actividades complementarias, extraescolares y/o de refuerzo** orientadas al acercamiento al ámbito sociolaboral.
+
+### 🛠️ Programas de recuperación
+
+En caso de no superar algún módulo profesional o resultado de aprendizaje (RA), se aplicará un **programa individualizado de recuperación**, con:
+
+- Actividades específicas dirigidas a los RA no alcanzados.
+- Temporalización clara.
+- Criterios de evaluación adaptados.
+
+Estos programas estarán reflejados en la **Programación General Anual (PGA)** y en la **programación docente de módulo**, asegurando atención a la diversidad y equidad educativa.
 
 ---
 
