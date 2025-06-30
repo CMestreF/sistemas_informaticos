@@ -45,99 +45,105 @@ Esta programación integra **retos del siglo XXI** y promueve los **Objetivos de
 
 ## 📊 Evaluación competencial por Resultados de Aprendizaje
 
-??? info "🧪 RA1 — Evalúa sistemas informáticos, identificando sus componentes y características (25%)"
+??? info "🧪 RA1 — Evalúa sistemas informáticos identificando sus componentes y características (25 %)"
+    <ol start="1">
+      <li>Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión. <strong>(20 %)</strong></li>
+      <li>Se han clasificado los tipos de memorias, señalando sus características e identificando sus prestaciones y la función que desarrollan en el conjunto del sistema. <strong>(12 %)</strong></li>
+      <li>Se ha verificado el proceso de puesta en marcha de un equipo. <strong>(12 %)</strong></li>
+      <li>Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos. <strong>(12 %)</strong></li>
+      <li>Se han identificado los tipos de redes y sistemas de comunicación. <strong>(12 %)</strong></li>
+      <li>Se han identificado los componentes de una red informática. <strong>(12 %)</strong></li>
+      <li>Se han interpretado mapas físicos y lógicos de una red informática. <strong>(12 %)</strong></li>
+      <li>Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos. <strong>(8 %)</strong></li>
+    </ol>
 
-    - Se ha valorado la importancia de asegurar la privacidad, coherencia y disponibilidad de la información en los sistemas informáticos. **(30%)**
-    - Se han descrito las diferencias entre seguridad física y lógica. **(14%)**
-    - Se han identificado los elementos que forman parte de un sistema informático. **(14%)**
-    - Se han interpretado mapas físicos y lógicos de redes locales. **(14%)**
-    - Se ha comprobado la conexión y el estado de los componentes físicos de un equipo informático. **(14%)**
-    - Se han diagnosticado y solucionado averías simples. **(14%)**
+??? info "⚙️ RA2 — Instala sistemas operativos planificando el proceso e interpretando documentación técnica (15 %)"
+    <ol start="9">
+      <li>Se han identificado los elementos funcionales de un sistema informático. <strong>(15 %)</strong></li>
+      <li>Se han analizado las características, funciones y arquitectura de un sistema operativo. <strong>(10 %)</strong></li>
+      <li>Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso. <strong>(15 %)</strong></li>
+      <li>Se ha planificado el proceso de la instalación de sistemas operativos. <strong>(10 %)</strong></li>
+      <li>Se han instalado y actualizado sistemas operativos libres y propietarios. <strong>(10 %)</strong></li>
+      <li>Se han aplicado técnicas de actualización y recuperación del sistema. <strong>(10 %)</strong></li>
+      <li>Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos. <strong>(10 %)</strong></li>
+      <li>Se han instalado, desinstalado y actualizado aplicaciones. <strong>(10 %)</strong></li>
+      <li>Se han documentado los procesos realizados. <strong>(10 %)</strong></li>
+    </ol>
 
-??? info "⚙️ RA2 — Instala sistemas operativos planificando el proceso e interpretando documentación técnica (15%)"
+??? info "🖥️ RA3 — Gestiona la información del sistema, identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos (10 %)"
+    <ol start="18">
+      <li>Se han comparado sistemas de archivos. <strong>(10 %)</strong></li>
+      <li>Se ha identificado la estructura y función de los directorios del sistema operativo. <strong>(15 %)</strong></li>
+      <li>Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos. <strong>(10 %)</strong></li>
+      <li>Se han creado diferentes tipos de particiones y unidades lógicas. <strong>(15 %)</strong></li>
+      <li>Se han realizado y restaurado copias de seguridad. <strong>(20 %)</strong></li>
+      <li>Se han planificado y automatizado tareas. <strong>(20 %)</strong></li>
+      <li>Se han instalado y evaluado utilidades relacionadas con la gestión de información. <strong>(10 %)</strong></li>
+    </ol>
 
-    - Se han determinado las características del sistema operativo a instalar según las necesidades del entorno. **(25%)**
-    - Se han elaborado guías de instalación. **(10%)**
-    - Se ha verificado la compatibilidad del hardware y software. **(15%)**
-    - Se ha realizado la instalación del sistema operativo. **(15%)**
-    - Se han instalado y desinstalado aplicaciones. **(10%)**
-    - Se han realizado actualizaciones. **(15%)**
-    - Se ha documentado el proceso de instalación. **(10%)**
+??? info "🐧 RA4 — Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema (10 %)"
+    <ol start="25">
+      <li>Se han configurado cuentas de usuario locales y grupos. <strong>(15 %)</strong></li>
+      <li>Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas. <strong>(15 %)</strong></li>
+      <li>Se han identificado, arrancado y detenido servicios y procesos. <strong>(15 %)</strong></li>
+      <li>Se ha protegido el acceso a la información mediante el uso de permisos locales y listas de control de acceso. <strong>(10 %)</strong></li>
+      <li>Se han utilizado comandos para realizar las tareas básicas de configuración y administración del sistema. <strong>(15 %)</strong></li>
+      <li>Se ha monitorizado el sistema. <strong>(10 %)</strong></li>
+      <li>Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema. <strong>(10 %)</strong></li>
+      <li>Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones. <strong>(10 %)</strong></li>
+    </ol>
 
-??? info "🖥️ RA3 — Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos (10%)"
+??? info "🔒 RA5 — Interconecta sistemas en red configurando dispositivos y protocolos (15 %)"
+    <ol start="33">
+      <li>Se ha configurado el protocolo TCP/IP. <strong>(15 %)</strong></li>
+      <li>Se han configurado redes de área local cableadas. <strong>(10 %)</strong></li>
+      <li>Se han configurado redes de área local inalámbricas. <strong>(10 %)</strong></li>
+      <li>Se han utilizado dispositivos de interconexión de redes. <strong>(15 %)</strong></li>
+      <li>Se ha configurado el acceso a redes de área extensa. <strong>(5 %)</strong></li>
+      <li>Se han gestionado puertos de comunicaciones. <strong>(10 %)</strong></li>
+      <li>Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas. <strong>(25 %)</strong></li>
+      <li>Se han aplicado protocolos seguros de comunicaciones. <strong>(10 %)</strong></li>
+    </ol>
 
-    - Se han realizado operaciones sobre archivos y carpetas. **(10%)**
-    - Se han automatizado tareas de gestión de la información. **(15%)**
-    - Se han implementado políticas de copias de seguridad. **(10%)**
-    - Se han utilizado herramientas de gestión del almacenamiento. **(15%)**
-    - Se han aplicado medidas para asegurar la integridad de los datos. **(20%)**
-    - Se han utilizado sistemas de archivos adecuados. **(20%)**
-    - Se ha realizado documentación técnica. **(10%)**
+??? info "🌐 RA6 — Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes (15 %)"
+    <ol start="41">
+      <li>Se ha configurado el acceso a recursos locales y recursos de red. <strong>(15 %)</strong></li>
+      <li>Se han identificado y configurado los derechos de usuario y directivas de seguridad. <strong>(10 %)</strong></li>
+      <li>Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones. <strong>(15 %)</strong></li>
+      <li>Se ha accedido a los servidores utilizando técnicas de conexión remota. <strong>(15 %)</strong></li>
+      <li>Se ha evaluado la necesidad de proteger los recursos y el sistema. <strong>(15 %)</strong></li>
+      <li>Se han instalado y evaluado utilidades de seguridad básica. <strong>(15 %)</strong></li>
+      <li>Se han configurado y explotado dominios. <strong>(15 %)</strong></li>
+    </ol>
 
-??? info "🐧 RA4 — Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema (10%)"
+??? tip "🌱 RAT1 — Participa eficazmente en equipos multidisciplinarios (hasta 0,25 puntos extra)"
+    <ol start="55">
+      <li>Colabora activamente en proyectos grupales, asignando roles y responsabilidades según habilidades individuales. <strong>(40 %)</strong></li>
+      <li>Utiliza herramientas de gestión de proyectos para organizar tareas y plazos. <strong>(20 %)</strong></li>
+      <li>Comunica ideas y soluciones técnicamente complejas de forma clara y estructurada. <strong>(40 %)</strong></li>
+    </ol>
 
-    - Se ha gestionado el sistema de archivos y directorios. **(15%)**
-    - Se han gestionado usuarios y grupos. **(15%)**
-    - Se han asignado permisos. **(15%)**
-    - Se ha verificado el funcionamiento del sistema. **(10%)**
-    - Se han identificado servicios. **(15%)**
-    - Se han utilizado herramientas gráficas. **(10%)**
-    - Se han utilizado herramientas en línea de comandos. **(10%)**
-    - Se ha optimizado el funcionamiento del sistema. **(10%)**
+??? tip "🚀 RAT2 — Desarrolla aprendizaje autónomo y pensamiento crítico (hasta 0,25 puntos extra)"
+    <ol start="58">
+      <li>Investiga y compara tecnologías emergentes para proponer soluciones innovadoras. <strong>(40 %)</strong></li>
+      <li>Implementa entornos de prueba para explorar nuevas herramientas sin supervisión. <strong>(30 %)</strong></li>
+      <li>Documenta procesos de aprendizaje autodidacta mediante guías, tutoriales o videoblogs. <strong>(30 %)</strong></li>
+    </ol>
 
-??? info "🔒 RA5 — Interconecta sistemas en red configurando dispositivos y protocolos (15%)"
+??? tip "🧠 RAT3 — Aplica buenas prácticas de ciberseguridad y ética digital (hasta 0,25 puntos extra)"
+    <ol start="61">
+      <li>Configura sistemas con medidas de seguridad básicas. <strong>(40 %)</strong></li>
+      <li>Identifica vulnerabilidades en redes y aplicaciones mediante herramientas de escaneo. <strong>(20 %)</strong></li>
+      <li>Cumple con normativas de protección de datos en el diseño de sistemas. <strong>(40 %)</strong></li>
+    </ol>
 
-    - Se han instalado y configurado adaptadores de red. **(15%)**
-    - Se han aplicado protocolos de red. **(10%)**
-    - Se ha configurado el direccionamiento IP. **(10%)**
-    - Se han utilizado dispositivos de interconexión de redes. **(15%)**
-    - Se ha configurado el acceso a redes de área extensa. **(5%)**
-    - Se han gestionado puertos de comunicaciones. **(10%)**
-    - Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas. **(25%)**
-    - Se han aplicado protocolos seguros de comunicaciones. **(10%)**
-
-??? info "🌐 RA6 — Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes (15%)"
-    - Se ha configurado el acceso a recursos locales y recursos de red. **(25%)**
-    - Se han identificado los derechos de usuario y directivas de seguridad. **(10%)**
-    - Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones. **(15%)**
-    - Se ha accedido a los servidores utilizando técnicas de conexión remota. **(20%)**
-    - Se ha evaluado la necesidad de proteger los recursos y el sistema. **(15%)**
-    - Se han instalado y evaluado utilidades de seguridad básica. **(15%)**
-
-??? info "🧩 RA7 — Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general (10%)"
-
-    - Se ha clasificado software en función de su licencia y propósito. **(15%)**
-    - Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos. **(25%)**
-    - Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas. **(25%)**
-    - Se han utilizado sistemas de correo y mensajería electrónica. **(15%)**
-    - Se han utilizado los servicios de transferencia de ficheros. **(10%)**
-    - Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet. **(10%)**
-
-??? tip "🌱 RAT1 — Participa eficazmente en equipos multidisciplinarios, utilizando herramientas de comunicación y colaboración para gestionar proyectos y tareas relacionadas con sistemas informáticos de manera eficiente y responsable (Hasta 0,25 puntos sumados a la nota final)"
-
-    - Colabora activamente en proyectos grupales, asignando roles y responsabilidades según habilidades individuales. **(40%)**
-    - Utiliza herramientas de gestión de proyectos para organizar tareas y plazos. **(20%)**
-    - Comunica ideas y soluciones técnicamente complejas de forma clara y estructurada. **(40%)**
-
-??? tip "🚀 RAT2 — Desarrolla la capacidad de aprendizaje autónomo para adaptarse a nuevas herramientas, sistemas operativos y tecnologías emergentes en el ámbito de la administración y gestión de sistemas informáticos (Hasta 0,25 puntos sumados a la nota final)"
-
-    - Investiga y compara tecnologías emergentes para proponer soluciones innovadoras. **(40%)**
-    - Implementa entornos de prueba para explorar nuevas herramientas sin supervisión. **(30%)**
-    - Documenta procesos de aprendizaje autodidacta mediante guías, tutoriales o videoblogs. **(30%)**
-
-??? tip "🧠 RAT3 — Aplica buenas prácticas en ciberseguridad, privacidad y protección de datos, entendiendo su impacto en el desarrollo de aplicaciones y sistemas, y respetando los principios de la ética digital (Hasta 0,25 puntos sumados a la nota final)"
-
-    - Configura sistemas con medidas de seguridad básicas. **(40%)**
-    - Identifica vulnerabilidades en redes y aplicaciones mediante herramientas de escaneo. **(20%)**
-    - Cumple con normativas de protección de datos en el diseño de sistemas. **(40%)**
-
-??? tip "📡 RAT4 — Integra medidas de sostenibilidad y eficiencia energética en el uso, instalación y mantenimiento de sistemas informáticos, promoviendo un uso responsable de los recursos digitales (Hasta 0,25 puntos sumados a la nota final)"
-
-    - Identifica y aplica buenas prácticas para reducir el consumo energético de los sistemas informáticos. **(25%)**
-    - Propone soluciones para prolongar la vida útil de los equipos informáticos. **(25%)**
-    - Utiliza criterios de sostenibilidad al seleccionar componentes y configuraciones. **(25%)**
-    - Evalúa el impacto ambiental de decisiones técnicas en sistemas informáticos. **(25%)**
-
+??? tip "📡 RAT4 — Promueve sostenibilidad y eficiencia energética en sistemas informáticos (hasta 0,25 puntos extra)"
+    <ol start="64">
+      <li>Identifica y aplica buenas prácticas para reducir el consumo energético de los sistemas informáticos. <strong>(25 %)</strong></li>
+      <li>Propone soluciones para prolongar la vida útil de los equipos informáticos. <strong>(25 %)</strong></li>
+      <li>Utiliza criterios de sostenibilidad al seleccionar componentes y configuraciones. <strong>(25 %)</strong></li>
+      <li>Evalúa el impacto ambiental de decisiones técnicas en sistemas informáticos. <strong>(25 %)</strong></li>
+    </ol>
 
 ## 🗂️ Estructura de la programación
 
@@ -217,32 +223,32 @@ Estos programas estarán reflejados en la **Programación General Anual (PGA)** 
 <div class="grid cards">
 
 <div class="card">
-<h3>🔧 <a href="unidad1.md">Unidad 1: Arquitectura y Hardware</a></h3>
+<h3>🔧 <a href="unidad1">Unidad 1: Arquitectura y Hardware</a></h3>
 <p>Fundamentos teóricos y prácticos del hardware, desmontaje, diagnóstico y montaje de PCs.</p>
 </div>
 
 <div class="card">
-<h3>🌐 <a href="unidad2.md">Unidad 2: Redes Básicas y Comunicaciones</a></h3>
+<h3>🌐 <a href="unidad2">Unidad 2: Redes Básicas y Comunicaciones</a></h3>
 <p>Primeros pasos en redes: tipos, topologías y prácticas con cableado y simuladores.</p>
 </div>
 
 <div class="card">
-<h3>💽 <a href="unidad3.md">Unidad 3: Instalación y Configuración de Sistemas Operativos</a></h3>
+<h3>💽 <a href="unidad3">Unidad 3: Instalación y Configuración de Sistemas Operativos</a></h3>
 <p>Instalación de sistemas operativos, gestión de licencias y virtualización.</p>
 </div>
 
 <div class="card">
-<h3>🐧 <a href="unidad4.md">Unidad 4: Administración básica de Linux</a></h3>
+<h3>🐧 <a href="unidad4">Unidad 4: Administración básica de Linux</a></h3>
 <p>Introducción al uso de terminal, gestión de usuarios, servicios y scripting.</p>
 </div>
 
 <div class="card">
-<h3>🔐 <a href="unidad5.md">Unidad 5: Redes TCP/IP y Seguridad Perimetral</a></h3>
+<h3>🔐 <a href="unidad5">Unidad 5: Redes TCP/IP y Seguridad Perimetral</a></h3>
 <p>Configuración de redes, servicios TCP/IP y medidas básicas de seguridad.</p>
 </div>
 
 <div class="card">
-<h3>🖥️ <a href="unidad6.md">Unidad 6: Administración Avanzada y Proyectos</a></h3>
+<h3>🖥️ <a href="unidad6">Unidad 6: Administración Avanzada y Proyectos</a></h3>
 <p>Proyectos finales, administración avanzada y simulación de entornos reales.</p>
 </div>
 
