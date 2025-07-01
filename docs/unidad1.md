@@ -1,55 +1,115 @@
-# Unidad Didáctica 1: Arquitectura y Hardware
-
+# 📘 Unidad Didáctica 1 — Arquitectura y Hardware
 ![Desmontando un equipo informático](img/desmontando-pc.png)
+
+## ⏱ Temporalización global
+
+- **Duración:** 44 h (26 sesiones) / 160h 
+  - **Lunes:** 2 h · **Martes:** 2 h · **Miércoles:** 1 h  
+- **Bloque:** Fundamentos de Sistemas Informáticos  
+- **Secuencia anual:** UT 1 / 6
+
+---
+> **Meta** · Comprender, diagnosticar y optimizar la arquitectura física del ordenador aplicando criterios de seguridad, sostenibilidad y trabajo colaborativo.
+
 ## 🎯 ¿Qué vas a aprender?
 
 Vas a conocer la arquitectura de un ordenador, sus componentes físicos y lógicos, y aprenderás a identificar, manipular y diagnosticar sistemas informáticos, aplicando criterios de seguridad y sostenibilidad.
 
-## 📏 ¿Cómo se evalúa?
-
-A través de actividades prácticas, diagnósticos simulados, cuadernos de trabajo, informes de práctica, test y autoevaluaciones. Se valorará tu participación, actitud, iniciativa, trabajo en equipo y la calidad de las soluciones propuestas.
+---
 
 ## 🔎 ¿Qué haremos?
 
 Desmontarás ordenadores reales o simulados, analizarás su arquitectura, diagnosticarás averías y desarrollarás un proyecto personal: "Construye tu PC ideal".
 
-## ✅ Resultados de aprendizaje
+---
 
-* RA1. Evalúa sistemas informáticos identificando sus componentes.
-* RAT2. Desarrolla aprendizaje autónomo.
-* RAT3. Aplica principios de sostenibilidad tecnológica.
+## 🎯 Criterios de evaluación y Resultados de aprendizaje
 
-## 📊 Criterios de evaluación
+=== "RA1 — Evalúa sistemas informáticos identificando sus componentes y características"
+    **Criterios de evaluación asociados (CE 1 - 8)**  
+    - **CE 1.** Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.  
+    - **CE 2.** Se han clasificado los tipos de memorias, señalando sus características e identificando sus prestaciones y la función que desarrollan en el conjunto del sistema.  
+    - **CE 3.** Se ha verificado el proceso de puesta en marcha de un equipo, aplicando procedimientos de seguridad y comprobando su funcionalidad.  
+    - **CE 4.** Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos, justificando su finalidad y describiendo los procedimientos seguidos.  
+    - **CE 5.** Se han identificado los tipos de redes y sistemas de comunicación, determinando las características de cada uno.  
+    - **CE 6.** Se han identificado los componentes de una red informática, describiendo su funcionalidad y prestaciones.  
+    - **CE 7.** Se han interpretado mapas físicos y lógicos de una red informática, relacionándolos con los componentes que los integran.  
+    - **CE 8.** Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos, aplicándolas correctamente.
 
-* 1.a, 1.b, 1.c, 1.d
-* rat2.a, rat2.b
-* rat3.a, rat3.b
+=== "RAT1 — Colabora eficazmente en equipos multidisciplinares"
+    - **CE 55.** Colabora activamente en proyectos grupales, asignando roles y responsabilidades según las habilidades individuales del equipo y manteniendo un clima de trabajo respetuoso y productivo.
 
-## ⏱ Temporalización
+=== "RAT2 — Desarrolla aprendizaje autónomo y pensamiento crítico"
+    - **CE 58.** Investiga y contrasta de forma autónoma distintas fuentes de información, aplicando pensamiento crítico para proponer soluciones innovadoras a problemas tecnológicos concretos.
 
- ⏱️ Duración: 44 horas – Primer trimestre  
+=== "RAT3 — Aplica buenas prácticas de ciberseguridad y ética digital"
+    - **CE 61.** Configura y utiliza sistemas informáticos aplicando medidas básicas de ciberseguridad y respetando los principios de la ética digital y la legislación vigente.
 
- 🧩 Bloque: Fundamentos de sistemas informáticos  
+=== "RAT4 — Integra sostenibilidad y eficiencia energética en la gestión de hardware"
+    - **CE 64.** Identifica y aplica buenas prácticas para reducir el consumo energético y la huella ecológica asociada a los sistemas informáticos.
 
- 📦 Secuencia: UT1/6
+---
 
-### 📅 Tabla de planificación por actividad
+## 📑 Competencias profesionales y para la empleabilidad que trabajaremos
 
-| Tipo de actividad   | Nombre de la actividad                             | Criterios de evaluación utilizados | Temporalización (horas) |
-| ------------------- | -------------------------------------------------- | ---------------------------------- | ----------------------- |
-| Motivación          | Presentación de la unidad                          | 1.a, rat2.a                        | 1                       |
-| Práctica guiada     | Desmontando un PC                                  | 1.a, 1.c, rat3.a                   | 3                       |
-| Debate              | Tecnología y sostenibilidad                        | rat3.a, rat3.b                     | 2                       |
-| Diagnóstico inicial | Cuestionario y creación de portafolio              | 1.a, rat2.a, rat2.b                | 2                       |
-| Exposición guiada   | Arquitectura, buses, memoria                       | 1.a, 1.b                           | 5                       |
-| Práctica técnica    | Identificación y montaje de componentes            | 1.a, 1.c                           | 5                       |
-| Diagnóstico técnico | Fallos frecuentes                                  | 1.b, 1.d                           | 4                       |
-| Investigación       | Consulta de manuales y comparación en PCPartPicker | rat2.b                             | 2                       |
-| Simulación          | PC Building Simulator + Cuaderno de tareas         | 1.a, 1.b, rat2.b                   | 4                       |
-| Proyecto final      | Diseña tu PC ideal                                 | 1.a, 1.c, rat2.a, rat3.a, rat3.b   | 10                      |
-| Evaluación final    | Test + diagnóstico práctico + defensa del proyecto | 1.a, 1.b, 1.c, rat2.a, rat3.a      | 6                       |
+- **a)** Configurar y explotar sistemas informáticos.  
+- **b)** Aplicar técnicas y procedimientos de seguridad.  
+- **o)** Elaborar y mantener documentación técnica.  
+- **q)** Resolver contingencias con iniciativa y autonomía.
 
-![Adquisición de los RAs](img/contribucion_ras_ut1.png)
+---
+
+## 📏 ¿Cómo se evalúa?
+
+A través de actividades prácticas, diagnósticos simulados, cuadernos de trabajo, informes de práctica, test y autoevaluaciones. Se valorará tu participación, actitud, iniciativa, trabajo en equipo y la calidad de las soluciones propuestas.
+
+## 📏 Evaluación
+
+**Calif. CE** = media de todas las actividades que evidencian ese CE
+**Nota CE** = Calif. CE × peso CE
+**Nota RA1** = Σ Nota CE (CE 1-8)
+
+### Ponderación CE → RA 1
+
+| CE | Descripción resumida | Peso en RA 1 |
+|:--:|----------------------|:-----------:|
+| 1 | Componentes & buses | 20 % |
+| 2 | Tipos de memoria | 12 % |
+| 3 | Puesta en marcha | 12 % |
+| 4 | Periféricos | 12 % |
+| 5 | Redes | 12 % |
+| 6 | Elementos de red | 12 % |
+| 7 | Mapas de red | 12 % |
+| 8 | PRL & ESD | 8 % |
+
+*Regla de media*: si un CE aparece en varias actividades, se promedia su calificación.
+
+---
+
+## 🤝 Atención a la diversidad
+
+??? note "Adaptaciones previstas"
+    - **Acceso**: puestos ergonómicos y pulseras ESD adaptadas.  
+    - **Flexibilización temporal**: ampliación de plazos en proyectos.  
+    - **Apoyos tecnológicos**: realidad virtual para alumnado con dificultades de motricidad fina.
+
+---
+
+## 🗂️ Planificación por actividades
+
+| # | Tipo | Actividad | RA / RAT · CE vinculados | Ses. | Horas |
+|:-:|------|-----------|--------------------------|:----:|:----:|
+| 1 | Introducción-Motivación | Presentación + Mentimeter | **RA1 · RAT1** → CE 1, 55 | 1 – 2 | 3 |
+| 2 | Desarrollo | Desmontando un PC (práctica real / simulada) | **RA1 · RAT4** → CE 1, 3, 4, 8, 64 | 3 – 5 | 5 |
+| 3 | Complementaria *(opcional)* | Debate “Tecnología y sostenibilidad” | **RAT4** → CE 64 | 6 | 2 |
+| 4 | Desarrollo | Arquitectura, buses y memorias | **RA1 · RAT2** → CE 1, 2, 58 | 7 – 11 | 9 |
+| 5 | Desarrollo | Montaje completo + diagnóstico | **RA1** → CE 1, 3, 4, 8 | 12 – 16 | 9 |
+| 6 | Ampliación *(opcional)* | Investigación comparativa (PCPartPicker) | **RAT1 · RAT2 · RAT4** → CE 55, 58, 64 | 17 – 18 | 3 |
+| 7 | Desarrollo | Proyecto «PC ideal» | **RA1 · RAT1-4** → CE 1-4, 8, 55, 58, 61, 64 | 19 – 24 | 11 |
+| 8 | Desarrollo | Evaluación final + defensa | **RA1 · RAT1-4** → CE 1-8, 55, 58, 61, 64 | 25 – 26 | 2 |
+
+> ⓘ Las actividades **3** y **6** son voluntarias: sólo suman puntos si se completan.
+
 ---
 
 ## 1. Introducción
@@ -102,7 +162,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** Guía del alumno, dispositivos con conexión, ficha RA/CE en PDF, enlaces a Padlet y Mentimeter.
 
-* **Criterios de evaluación trabajados:** 1.a, rat2.a
+* **Criterios de evaluación trabajados:** 1, 55
 
 * **Evaluación:** Observación directa sobre la participación, actitud ante la actividad inicial y recogida de impresiones previas mediante el resultado del test interactivo. Observación directa sobre la participación, actitud ante la actividad inicial y recogida de impresiones previas mediante el resultado del test interactivo.
 
@@ -116,12 +176,12 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
   2. **Normas de seguridad**: Antes de comenzar, recordamos las normas básicas (uso de pulseras antiestáticas, orden en la mesa, cuidado del material).
   3. **Desmontaje guiado**: Siguiendo una ficha visual, desmontamos la torre paso a paso. Documentamos con fotos o esquemas cada componente identificado.
   4. **Rotulación y análisis**: Colocamos etiquetas a cada componente e identificamos su función, tipo de conexión, y posibles problemas asociados.
-  5. **Síntesis colectiva**: Subimos nuestras fotos y observaciones a una carpeta común o plataforma del aula (Drive, Moodle, etc.) para contrastar los hallazgos entre grupos.
+  5. **Síntesis colectiva**: Subimos nuestras fotos y observaciones a una carpeta común o plataforma del aula (Sharepoint o Github) para contrastar los hallazgos entre grupos.
   6. **Puesta en común**: Cada portavoz presenta un componente y lo explica brevemente al resto de la clase.
 
 * **Material:** Torre de PC, kits de herramienta, pulseras antiestáticas, guías visuales impresas, fichas de roles, etiquetas autoadhesivas, dispositivos móviles para documentación.
 
-* **Criterios de evaluación trabajados:** 1.a, 1.c, rat3.a
+* **Criterios de evaluación trabajados:** 1, 3, 4, 55, 64
 
 * **Evaluación:** Lista de control del docente + rúbrica breve de grupo para valorar organización, comunicación y precisión en la identificación de componentes.
 
@@ -133,33 +193,33 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
   1. **Introducción**: Comenzamos con una pregunta generadora en Padlet: “¿Sabes cuánto contamina tu ordenador?”
   2. **Visualización crítica**: Visionamos en nuestros dispositivos el vídeo ["The lifecycle of a computer"](https://www.youtube.com/watch?v=1jU5YNbfZ0Q) (o similar) sobre huella ecológica de componentes.
-  3. **Trabajo en grupos**: En grupos, usamos una plantilla (editable en Drive o Moodle) para anotar posibles medidas de mejora sostenible en el entorno técnico.
+  3. **Trabajo en grupos**: En grupos, usamos una plantilla (editable en Office365) para anotar posibles medidas de mejora sostenible en el entorno técnico.
   4. **Síntesis visual**: Creamos una infografía rápida (Canva o Genially) con una propuesta concreta.
   5. **Exposición**: Cada grupo comparte su infografía y defiende su propuesta brevemente ante el grupo.
 
-* **Material:** Vídeo educativo, Padlet inicial, plantilla de análisis, herramienta de diseño (Canva), dispositivos.
+ **Material:** Vídeo educativo, Padlet inicial, plantilla de análisis, herramienta de diseño (Canva), dispositivos.
 
-* **Criterios de evaluación trabajados:** rat3.a, rat3.b
+ **Criterios de evaluación trabajados:** 61, 64
 
-* **Evaluación:** Escala actitudinal para valorar participación y respeto + rúbrica para la presentación y argumentación de la propuesta sostenible.\*\* Escala actitudinal para medir respeto, escucha activa y argumentación + rúbrica para la presentación de propuestas sostenibles.\*\* Escala actitudinal para medir respeto, escucha activa y argumentación + rúbrica para la presentación de propuestas sostenibles.
+ **Evaluación:** Escala actitudinal para valorar participación y respeto + rúbrica para la presentación y argumentación de la propuesta sostenible.
 
 #### 📝 Sesión 4: Cuestionario diagnóstico + portafolio
 
 * **Actividad:** Realizamos un cuestionario inicial para detectar nuestros conocimientos previos sobre hardware, componentes y sostenibilidad. Después, el docente nos explica el portafolio individual de aprendizaje y nos entrega una plantilla digital editable. Comenzamos a completarla con una ficha de autoevaluación inicial y nuestros objetivos personales.
 
-  **Implementación paso a paso:**
+ **Implementación paso a paso:**
 
-  1. **Cuestionario inicial**: Accedemos desde nuestros dispositivos al formulario Google Forms (o similar) con preguntas sobre hardware básico, funciones, sostenibilidad y buenas prácticas.
+  1. **Cuestionario inicial**: Accedemos desde nuestros ordenadores a un cuestionario en AULES con preguntas sobre hardware básico, funciones, sostenibilidad y buenas prácticas.
   2. **Corrección compartida**: Visualizamos los resultados colectivos para identificar conceptos dominados y aquellos que debemos reforzar.
   3. **Presentación del portafolio**: El docente nos explica cómo usar el portafolio digital: cómo subir prácticas, reflexiones, fichas y mejoras.
   4. **Autoevaluación inicial**: Completamos una ficha de autopercepción sobre conocimientos, intereses y nivel de confianza. Establecemos un pequeño objetivo personal para esta unidad.
-  5. **Organización digital**: Creamos una carpeta personal en Drive o Moodle para centralizar nuestras evidencias de aprendizaje.
+  5. **Organización digital**: Creamos una carpeta personal en Onedrive para centralizar nuestras evidencias de aprendizaje.
 
-* **Material:** Cuestionario digital, plantilla editable de portafolio, rúbrica de autoevaluación inicial, guía de uso del portafolio.
+ **Material:** Cuestionario digital, plantilla editable de portafolio, rúbrica de autoevaluación inicial, guía de uso del portafolio.
 
-* **Criterios de evaluación trabajados:** 1.a, rat2.a, rat2.b
+ **Criterios de evaluación trabajados:** 1, 55, 58
 
-* **Evaluación:** Corrección automatizada del cuestionario, entrega de ficha inicial en el portafolio y observación del compromiso inicial con el proceso de aprendizaje.\*\* Corrección automática o en clase del cuestionario, revisión del portafolio y ficha de autoevaluación, orientación individual por parte del docente.\*\* Corrección automática o en clase del cuestionario, revisión del portafolio y ficha de autoevaluación, orientación individual por parte del docente.
+ **Evaluación:** Corrección automática o en clase del cuestionario, revisión del portafolio y ficha de autoevaluación, orientación individual por parte del docente.
 
 ### Fase 2: Desarrollo (Sesiones 5 a 18)
 
@@ -173,11 +233,11 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
   2. **Lectura técnica**: Leemos un fragmento seleccionado de un artículo sobre arquitectura informática básica (formato PDF compartido).
   3. **Análisis visual**: Utilizamos un simulador simple o una animación en línea para ver cómo fluye la información en cada arquitectura.
   4. **Síntesis personal**: Completamos una ficha individual con preguntas de comprensión y una ilustración esquemática.
-  5. **Evaluación final**: Realizamos un test autocorregible en Google Forms o Moodle sobre lo aprendido.
+  5. **Evaluación final**: Realizamos un test autocorregible en AULES sobre lo aprendido.
 
 * **Material:** Infografía digital, artículo técnico en PDF, ficha de repaso editable, test en línea, dispositivos.
 
-* **Criterios de evaluación trabajados:** 1.a, rat2.a
+* **Criterios de evaluación trabajados:** 1, 58
 
 * **Evaluación:** Revisión de la ficha completada y resultados del test autocorregible.
 
@@ -195,7 +255,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** Tarjetas impresas o recortables, fichas de componentes, esquema del sistema, cuaderno digital.
 
-* **Criterios de evaluación trabajados:** 1.a
+* **Criterios de evaluación trabajados:** 1
 
 * **Evaluación:** Rúbrica de grupo para valorar participación, comprensión del proceso y exposición final + observación directa.
 
@@ -203,42 +263,42 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Actividad:** Estudiamos los tipos de memoria, realizamos una práctica de identificación real/simulada y completamos una tabla comparativa.
 * **Material:** Módulos reales o imágenes, tabla comparativa, vídeo.
-* **Criterios:** 1.a, 1.c
+* **Criterios:** 1, 2
 * **Evaluación:** Tabla individual + práctica guiada.
 
 #### 🧩 Sesiones 9-10: Componentes principales
 
 * **Actividad:** Analizamos la función de CPU, RAM, GPU, etc., y completamos un esquema de arquitectura real basado en un PC doméstico.
 * **Material:** Esquema interactivo, simulador online.
-* **Criterios:** 1.a
+* **Criterios:** 1
 * **Evaluación:** Entrega del esquema + test.
 
 #### 🔧 Sesiones 11-13: Montaje de un equipo
 
 * **Actividad:** Simulamos el montaje de un ordenador siguiendo una guía. Documentamos cada paso con fotos.
 * **Material:** PC Building Simulator, checklist del montaje.
-* **Criterios:** 1.a, 1.c, rat2.b
+* **Criterios:** 1, 3, 4, 58
 * **Evaluación:** Rúbrica de montaje + checklist + autoevaluación.
 
 #### 🧪 Sesiones 14-15: Diagnóstico de fallos frecuentes
 
 * **Actividad:** En parejas, resolvemos 3 supuestos prácticos de fallos en arranque, periféricos o temperatura.
 * **Material:** Simulador, fichas de averías.
-* **Criterios:** 1.b, 1.d
+* **Criterios:** 2, 3
 * **Evaluación:** Informe de intervención técnica.
 
 #### 📚 Sesión 16: Lectura técnica comparada
 
 * **Actividad:** Analizamos un manual de fabricante y comparamos una configuración en PCPartPicker según distintos perfiles profesionales.
 * **Material:** PCPartPicker, hoja de análisis comparativo.
-* **Criterios:** rat2.b
+* **Criterios:** 58
 * **Evaluación:** Hoja comparativa + participación oral.
 
 #### 🕹 Sesiones 17-18: Simulación y cierre de ciclo técnico
 
 * **Actividad:** Realizamos una simulación completa de ensamblaje, configuración y prueba en PC Building Simulator con plantilla de observación.
 * **Material:** Simulador, plantilla evaluación.
-* **Criterios:** 1.a, 1.b, rat2.b
+* **Criterios:** 1, 2, 58
 * **Evaluación:** Rúbrica de simulación + test final.
 
 ### Fase 3: Aplicación (Sesiones 19 a 26)
@@ -257,7 +317,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** Plantilla del proyecto, acceso a páginas web, rúbrica del proyecto.
 
-* **Criterios:** 1.a, 1.c, rat2.a
+* **Criterios:** 1, 3, 58
 
 * **Evaluación:** Rúbrica de planificación inicial + ficha de perfil elegido.
 
@@ -274,7 +334,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** Tabla de selección, acceso a webs, infografía sobre sostenibilidad energética.
 
-* **Criterios:** 1.a, 1.c, rat3.a, rat3.b
+* **Criterios:** 1, 3, 61, 64
 
 * **Evaluación:** Tabla completada + feedback entre pares + rúbrica parcial.
 
@@ -291,7 +351,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** PC o simulador, guía de uso de herramientas, ficha de observación.
 
-* **Criterios:** 1.b, 1.d, rat2.a
+* **Criterios:** 2, 4, 58
 
 * **Evaluación:** Informe técnico de observación + análisis de comportamiento.
 
@@ -305,9 +365,9 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
   2. Ensayamos la defensa en pequeño grupo con cronómetro.
   3. Realizamos la exposición ante el grupo con preguntas finales del profesorado.
 
-* **Material:** Presentación en Google Slides / Canva, rúbrica de defensa.
+* **Material:** Presentación en Powerpoint / Canva, rúbrica de defensa.
 
-* **Criterios:** 1.a, 1.c, rat2.a, rat3.a, rat3.b
+* **Criterios:** 1, 3, 58, 61, 64
 
 * **Evaluación:** Rúbrica completa del proyecto + observación directa.
 
@@ -323,7 +383,7 @@ La informática parte del conocimiento profundo de sus sistemas base. Esta unida
 
 * **Material:** Test final, simulador o guion de avería, ficha de reflexión.
 
-* **Criterios:** 1.a, 1.b, 1.c, rat2.a, rat3.a
+* **Criterios:** 1, 2, 3, 58, 61
 
 * **Evaluación:** Test + informe técnico + ficha de autoevaluación.
 
@@ -364,7 +424,7 @@ A continuación se describen con más detalle los instrumentos de evaluación ut
 
 * **Observación directa:** Se aplicará mediante listas de control o escalas de observación durante las actividades grupales e individuales (sesiones 1, 2, 3, 6, 16, 24 y 25). Se valorará la participación, actitud, iniciativa, cooperación, responsabilidad con los materiales y el cumplimiento de roles.
 
-* **Escala actitudinal:** Aplicada en debates y exposiciones (sesión 3), valora el respeto, la escucha activa, la empatía y la argumentación. Se utiliza una escala Likert adaptada que facilita la auto y heteroevaluación.
+* **Escala actitudinal:** Aplicada en debates y exposiciones (sesión 3), valora el respeto, la escucha activa, la empatía y la argumentación. Se utiliza una escala Likert adaptada.
 
 * **Rúbricas específicas:** Se emplean en múltiples actividades, como:
 
@@ -373,7 +433,7 @@ A continuación se describen con más detalle los instrumentos de evaluación ut
   * Proyecto final y defensa (sesiones 19-25)
     Cada rúbrica valora organización, precisión técnica, sostenibilidad, creatividad, calidad del informe y exposición oral.
 
-* **Cuestionarios tipo test:** En sesiones 1, 5, 18 y 26, se utilizan formularios digitales (Google Forms o Moodle) con preguntas de opción múltiple, verdadero/falso o respuesta corta. Evalúan conocimientos previos, adquiridos y finales.
+* **Cuestionarios tipo test:** En sesiones 1, 5, 18 y 26, se utilizan cuestionarios de AULES con preguntas de opción múltiple, verdadero/falso o respuesta corta. Evalúan conocimientos previos, adquiridos y finales.
 
 * **Prácticas técnicas guiadas:** Evaluadas con rúbricas de desempeño (sesiones 7-8, 11-13, 14-15, 23), considerando la manipulación adecuada de componentes, uso de herramientas, seguridad, orden y limpieza.
 
@@ -396,12 +456,3 @@ A continuación se describen con más detalle los instrumentos de evaluación ut
 | Defensa oral                         | Expone con seguridad y responde con precisión         | Buena exposición con alguna duda              | Defiende el proyecto de forma básica          | No consigue explicar ni defender |
 
 ---
-
-## 6. Recursos y materiales
-
-* Componentes reales (RAM, placas, discos)
-* Herramientas (multímetro, destornilladores)
-* Software: CPU-Z, HWMonitor, CrystalDiskInfo
-* Simuladores: PC Building Simulator, PC Virtual Lab
-* Realidad virtual (Meta Quest) si está disponible
-* Webs de consulta: Wikipedia, Intel, PCPartPicker, fabricantes

@@ -1,201 +1,282 @@
-# Unidad 2 – Redes Básicas y Comunicaciones
+# 🌐 Unidad Didáctica 2 — Redes Básicas y Comunicaciones
+![Patch panel con latiguillos etiquetados](img/redes-basicas.png)
 
-## 🎯 ¿Qué vamos a aprender?
+## ⏱️ Temporalización global  
+- **Duración:** 18 h (11 sesiones) / 160 h  
+  - **Lunes:** 2 h · **Martes:** 1 h · **Miércoles:** 2 h  
+- **Bloque:** Fundamentos de Sistemas Informáticos  
+- **Secuencia anual:** UT 2 / 6  
 
-Vamos a comprender cómo se comunican los dispositivos entre sí en una red local. Aprenderemos los fundamentos de las redes, los elementos físicos que las componen y cómo configurar topologías básicas, tanto en simuladores como con material real.
+---  
+> **Meta** · Identificar, diseñar y poner en marcha redes locales cableadas e inalámbricas aplicando buenas prácticas de seguridad, sostenibilidad y trabajo colaborativo.
 
-## 📏 ¿Cómo lo vamos a evaluar?
+## 🎯 ¿Qué vas a aprender?
+* Conceptos básicos de redes (tipos, topologías, medios y dispositivos).
+* Diseño de mapas físico-lógicos y cableado estructurado.
+* Configuración inicial de redes LAN y Wi-Fi con protocolos TCP/IP.
+* Verificación y resolución de incidencias de conectividad.
 
-La evaluación será continua y práctica: participaremos en actividades individuales y grupales, resolveremos problemas reales, documentaremos procedimientos, simularemos redes y conectaremos equipos reales. Usaremos rúbricas, escalas de observación, pruebas prácticas y reflexiones individuales.
+---  
 
-## 🔎 ¿Qué haremos en esta unidad?
+## 🔎 ¿Qué haremos?
+* Montaje de cableado y certificación básica.  
+* Simulaciones en **Packet Tracer** / **GNS3**.  
+* Diseño de un diagrama de red doméstica/profesional.  
+* Proyecto exprés: “Conecta tu aula” mediante switches y puntos de acceso.
 
-Montaremos una red sencilla con equipos reales, configuraremos direcciones IP, simularemos su funcionamiento en Packet Tracer, exploraremos el envío de datos, tipos de red y medios de transmisión, y resolveremos fallos básicos.
+---  
 
-## ✅ Resultados de aprendizaje
+## 🎯 Criterios de evaluación y Resultados de aprendizaje
 
-* **RA1**: Evalúa sistemas informáticos y sus componentes.
-* **RAT1**: Participa eficazmente en equipos multidisciplinares.
-* **RAT2**: Desarrolla la capacidad de aprendizaje autónomo.
+=== "RA1 — Evalúa sistemas informáticos (refuerzo CE 5-8)"
+    - **CE 5.** Identifica tipos de redes y sistemas de comunicación.  
+    - **CE 6.** Identifica componentes de una red informática.  
+    - **CE 7.** Interpreta mapas físico-lógicos de una red local.  
+    - **CE 8.** Aplica normas de seguridad y PRL en redes.
 
-## 📊 Criterios de evaluación
+=== "RA5 — Interconecta sistemas en red (iniciación)"
+    - **CE 33.** Configura el protocolo TCP/IP en un cliente de red.  
+    - **CE 34.** Configura redes LAN cableadas.  
+    - **CE 35.** Configura redes LAN inalámbricas.  
+    - **CE 36.** Utiliza dispositivos de interconexión de redes.
 
-* **1.a**: Identifica componentes físicos y sus funciones.
-* **1.d**: Reconoce redes de datos y comunicaciones.
-* **rat1.a**: Coopera en el desarrollo de una tarea técnica.
-* **rat2.a**: Investiga cómo configurar y comprobar redes locales.
+=== "RAT1 — Colabora eficazmente en equipos"
+    - **CE 55.** Participa en proyectos grupales asignando roles y usando herramientas de gestión.
+
+=== "RAT2 — Aprendizaje autónomo y pensamiento crítico"
+    - **CE 58.** Investiga comparativamente tecnologías de red y documenta conclusiones.
+
+=== "RAT3 — Ciberseguridad y ética digital"
+    - **CE 61.** Aplica medidas básicas de seguridad y cifrado en redes.
+
+=== "RAT4 — Sostenibilidad y eficiencia"
+    - **CE 64.** Propone soluciones de red con bajo consumo y mínimo impacto medioambiental.
+
+---  
+
+## 📑 Competencias profesionales y para la empleabilidad
+- **a)** Configurar y explotar sistemas informáticos.  
+- **b)** Aplicar técnicas y procedimientos de seguridad.  
+- **o)** Elaborar y mantener documentación técnica.  
+- **q)** Resolver contingencias con iniciativa y autonomía.  
+
+---  
+
+## 📏 ¿Cómo se evalúa?
+* **Observación directa** (actitud, roles, PRL).  
+* **Prácticas técnicas guiadas** con rúbrica (cableado, simulaciones).  
+* **Cuestionarios tipo test** en **AULES** (teoría y casos).  
+* **Portafolio digital** (diagramas, capturas Packet Tracer).  
+* **Proyecto exprés** con defensa oral.  
 
 ---
 
-## 📋 Tabla resumen de actividades y evaluación
+## 🗂️ Planificación por actividades
 
-| Sesión | Tipo de actividad            | Nombre de la actividad                     | Criterios de evaluación | Instrumentos de evaluación                               |
-| ------ | ---------------------------- | ------------------------------------------ | ----------------------- | -------------------------------------------------------- |
-| 1      | Exploración                  | ¿Qué es una red?                           | 1.d, rat2.a             | Cuestionario autocorregible, observación directa         |
-| 2      | Exploración                  | Elementos de una red local                 | 1.a, 1.d                | Rúbrica de esquema, participación activa                 |
-| 3      | Exploración                  | Tipos de red y medios de transmisión       | 1.a, rat2.a             | Ficha técnica, observación, rúbrica de práctica          |
-| 4      | Práctica real                | Montaje de red física simple               | 1.a, 1.d, rat1.a        | Lista de verificación, capturas, observación directa     |
-| 5      | Simulación                   | Introducción a Packet Tracer               | 1.d, rat2.a             | Archivo .pkt, rúbrica de simulación                      |
-| 6      | Análisis                     | Análisis de paquetes en Packet Tracer      | 1.d, rat1.a             | Tabla de observación, rúbrica de análisis                |
-| 7      | Diagnóstico                  | Fallos comunes en redes físicas            | 1.a, 1.d, rat2.a        | Informe breve, rúbrica de práctica                       |
-| 8      | Comparativa práctica         | Red física vs. red simulada                | 1.a, rat1.a             | Tabla comparativa, rúbrica de reflexión                  |
-| 9      | Proyecto colaborativo        | Diseño de una red para el aula             | 1.d, rat1.a, rat2.a     | Plano de red, presentación, rúbrica de propuesta         |
-| 10     | Simulación aplicada          | Implementación simulada de la red          | 1.a, 1.d, rat1.a        | Archivo .pkt, rúbrica de simulación, capturas            |
-| 11     | Evaluación y reflexión final | Evaluación competencial + nube de palabras | 1.a, 1.d, rat2.a        | Ficha de autoevaluación, nube digital, test, observación |
+| # | Tipo | Actividad | RA / RAT · CE | Ses. | H |
+|:-:|------|-----------|---------------|:---:|:-:|
+| 1 | Intro | Kahoot / Mentimeter “¿Qué sabes de redes?” | **RA1 · RAT2** → CE 5, 58 | 1 | 1 |
+| 2 | Des. | Tipos y topologías de red (presentación + mini-debate) | **RA1** → CE 5 | 1 | 1 |
+| 3 | Des. | Taller de cableado UTP (crimpado + tester) | **RA5 · RAT1** → CE 34, 55 | 2-3 | 3 |
+| 4 | Des. | Simulación LAN en Packet Tracer (switch + 3 PC) | **RA5** → CE 33, 34 | 4-5 | 2 |
+| 5 | Des. | Wi-Fi básica con punto de acceso y cifrado WPA2 | **RA5 · RAT3** → CE 35, 61 | 6 | 2 |
+| 6 | Compl. | Debate “Cable vs. Wi-Fi: eficiencia y sostenibilidad” | **RAT4** → CE 64 | 7 | 1 |
+| 7 | Des. | Creación de mapa físico-lógico con **Draw.io** | **RA1** → CE 7 | 8-9 | 2 |
+| 8 | Ap. | Proyecto “Conecta tu aula” (diseño + simulación) | **RA1 · RA5 · RAT1-4** → CE 5-8, 33-36, 55, 58, 61, 64 | 10 | 2 |
+| 9 | Eval. | Test + checklist PRL + defensa del proyecto | **RA1 · RA5 · RAT1-4** | 11 | 2 |
 
----
+*Las sesiones y horas son orientativas; pueden ajustarse según progreso.*  
 
-* **1.a**: Identifica componentes físicos y sus funciones.
-* **1.d**: Reconoce redes de datos y comunicaciones.
-* **rat1.a**: Coopera en el desarrollo de una tarea técnica.
-* **rat2.a**: Investiga cómo configurar y comprobar redes locales.
+---  
 
-## ⏱ Temporalización
+## 🤝 Atención a la diversidad
+??? note "Adaptaciones previstas"
+    - **Material adaptado:** fichas en lectura fácil y pictogramas.  
+    - **Apoyo visual:** uso de colores y códigos QR para tutoriales vídeo.  
+    - **Flexibilidad temporal:** ampliación de plazos para prácticas complejas.
 
-* Duración total: 18 horas
-* Número de sesiones: 11
+---  
 
----
+## 1. Introducción
+Las redes informáticas permiten compartir recursos y conectar dispositivos. Entender sus fundamentos es esencial antes de avanzar a configuraciones complejas y seguridad perimetral.
 
-## Fase 1: Introducción y motivación (Sesiones 1 a 3)
+---  
 
-### 🧠 Sesión 1: ¿Qué es una red? ¿Dónde la encontramos?
+## 2. Objetivos didácticos
+* Comprender los conceptos básicos de redes y sus topologías.  
+* Identificar y utilizar dispositivos de interconexión.  
+* Configurar redes LAN y Wi-Fi empleando TCP/IP.  
+* Interpretar mapas físico-lógicos.  
+* Aplicar buenas prácticas de seguridad y sostenibilidad.  
 
-* **Actividad:** Creamos un mural digital en Padlet donde recogemos ejemplos cotidianos de redes (casa, instituto, ciudad). Completamos un cuestionario interactivo y analizamos un mapa de red real del aula.
-* **Implementación:**
+---  
 
-  1. Presentamos el concepto de red con imágenes y ejemplos.
-  2. Lluvia de ideas en Padlet con dispositivos conectados.
-  3. Completamos una ficha de lectura con definiciones clave.
-  4. Cuestionario digital para verificar la comprensión.
-* **Criterios:** 1.d, rat2.a
-* **Instrumentos:** Cuestionario autocorregible, observación directa.
+## 3. Contenidos
+* Clasificación de redes (PAN, LAN, MAN, WAN).  
+* Topologías: estrella, bus, anillo, malla.  
+* Componentes: NIC, switches, routers, AP, cableado y conectores.  
+* Arquitectura TCP/IP (capas, direccionamiento IPv4/IPv6).  
+* Herramientas básicas de diagnóstico (ping, ipconfig, traceroute).  
+* Seguridad elemental: WPA2, cifrado, contraseñas robustas.  
+* Normas PRL (ESD, orden y prevención de accidentes).  
 
-### 📦 Sesión 2: Elementos de una red local
+---  
 
-* **Actividad:** Identificamos los componentes físicos de una red LAN (tarjetas de red, switch, router, cables) y los representamos en un esquema.
-* **Implementación:**
+## 4. Actividades y secuenciación
 
-  1. Observamos y manipulamos físicamente los elementos de red.
-  2. Tomamos fotos y etiquetas para documentar cada uno.
-  3. Diseñamos un esquema visual en papel o Canva.
-* **Criterios:** 1.a, 1.d
-* **Instrumentos:** Rúbrica de esquema, participación activa.
+### Fase 1: Introducción y motivación (Sesiones 1 a 3)
 
-### 🧩 Sesión 3: Tipos de red y medios de transmisión
+#### 🧠 Sesión 1: ¿Qué es una red? ¿Dónde la encontramos?
+* **Actividad:** Creamos un mural digital en **Padlet** donde recogemos ejemplos cotidianos de redes (casa, instituto, ciudad). Completamos un cuestionario interactivo y analizamos un mapa de red real del aula.  
+* **Implementación:**  
+  1. Presentamos el concepto de red con imágenes y ejemplos.  
+  2. Lluvia de ideas en Padlet con dispositivos conectados.  
+  3. Completamos una ficha de lectura con definiciones clave.  
+  4. Cuestionario digital para verificar la comprensión.  
+* **Criterios:** CE 5, CE 7, CE 58  
+* **Instrumentos:** Cuestionario autocorregible, observación directa  
 
-* **Actividad:** Clasificamos diferentes tipos de red (LAN, WAN, MAN, PAN) y experimentamos con cables y conectores.
-* **Implementación:**
+#### 📦 Sesión 2: Elementos de una red local
+* **Actividad:** Identificamos los componentes físicos de una red LAN (tarjetas de red, switch, router, cables) y los representamos en un esquema.  
+* **Implementación:**  
+  1. Observamos y manipulamos físicamente los elementos de red.  
+  2. Tomamos fotos y etiquetas para documentar cada uno.  
+  3. Diseñamos un esquema visual en papel o **Canva**.  
+* **Criterios:** CE 6, CE 7  
+* **Instrumentos:** Rúbrica de esquema, participación activa  
 
-  1. Completamos una tabla comparativa de tipos de red.
-  2. Conectamos cables RJ45 y los etiquetamos.
-  3. Probamos continuidad con tester.
-* **Criterios:** 1.a, rat2.a
-* **Instrumentos:** Ficha técnica, observación directa, rúbrica de práctica.
+#### 🧩 Sesión 3: Tipos de red y medios de transmisión
+* **Actividad:** Clasificamos diferentes tipos de red (LAN, WAN, MAN, PAN) y experimentamos con cables y conectores.  
+* **Implementación:**  
+  1. Completamos una tabla comparativa de tipos de red.  
+  2. Conectamos cables RJ-45 y los etiquetamos.  
+  3. Probamos continuidad con tester.  
+* **Criterios:** CE 5, CE 58  
+* **Instrumentos:** Ficha técnica, observación directa, rúbrica de práctica  
 
 ![Topología básica de red](img/topologia-red.png)
 
 ---
 
-## Fase 2: Desarrollo (Sesiones 4 a 8)
+### Fase 2: Desarrollo (Sesiones 4 a 9)
 
-### 🔧 Sesión 4: Montaje de una red física simple
+#### 🔧 Sesión 4: Crimpado y certificación de latiguillos UTP
+* **Actividad:** Montamos latiguillos de categoría 6 con conectores RJ-45 y comprobamos su continuidad y atenuación con tester.  
+* **Implementación:**  
+  1. Demostración guiada de crimpado correcto (orden T-568B).  
+  2. Trabajo por parejas para cortar, pelar y crimpar 2 latiguillos.  
+  3. Verificación con tester y registro de resultados en hoja de control.  
+  4. Puesta en común de errores frecuentes y buenas prácticas.  
+* **Criterios:** CE 34, CE 55  
+* **Instrumentos:** Checklist de calidad de crimpado, rúbrica de práctica, observación directa  
 
-* **Actividad:** Montamos una red local con dos ordenadores y un switch. Asignamos direcciones IP manualmente y comprobamos conectividad.
-* **Implementación:**
+#### 🖥️ Sesión 5: Simulación LAN en Packet Tracer
+* **Actividad:** Diseñamos y validamos una red LAN básica con un switch y tres PC usando Cisco Packet Tracer.  
+* **Implementación:**  
+  1. Creación del esquema lógico (switch + 3 PC, VLAN 1).  
+  2. Configuración de direcciones IPv4 estáticas /24.  
+  3. Pruebas de conectividad con `ping` y tabla ARP.  
+  4. Captura de pantalla y subida al portafolio digital.  
+* **Criterios:** CE 33, CE 34  
+* **Instrumentos:** Rúbrica de simulación, captura evidencias, observación directa  
 
-  1. Distribuimos materiales: 2 equipos, switch, cables, tarjetas de red.
-  2. Conectamos los equipos al switch con cables RJ45.
-  3. Configuramos direcciones IP fijas desde el panel de control.
-  4. Realizamos pruebas de conexión con `ping` y registramos los resultados.
-* **Criterios:** 1.a, 1.d, rat1.a
-* **Instrumentos:** Lista de verificación de montaje, observación directa, captura de pantalla de resultados.
+#### 📶 Sesión 6: Configuración de red Wi-Fi segura
+* **Actividad:** Configuramos un punto de acceso autónomo con SSID propio y cifrado WPA2-PSK, y conectamos dos dispositivos clientes.  
+* **Implementación:**  
+  1. Ajuste de canal, ancho y contraseña robusta.  
+  2. Asociación de clientes y verificación de señal con `iwconfig`.  
+  3. Prueba de transferencia (`iperf3`) para medir caudal.  
+  4. Registro de parámetros de seguridad aplicados.  
+* **Criterios:** CE 35, CE 61  
+* **Instrumentos:** Rúbrica de práctica, checklist de seguridad, observación directa  
 
-### 💻 Sesión 5: Introducción a Packet Tracer
+#### ⚖️ Sesión 7: Debate «Cable vs Wi-Fi: eficiencia y sostenibilidad»
+* **Actividad:** Mesa redonda sobre ventajas, limitaciones y huella energética de cada tecnología.  
+* **Implementación:**  
+  1. Lectura previa de artículo comparativo (AULES).  
+  2. Formación de grupos pro-cable y pro-Wi-Fi (argumentos).  
+  3. Debate estructurado y registro de conclusiones en Padlet.  
+  4. Votación final y reflexión individual.  
+* **Criterios:** CE 58, CE 64  
+* **Instrumentos:** Lista de cotejo de participación, diario reflexivo  
 
-* **Actividad:** Creamos nuestra primera red virtual con dos ordenadores conectados mediante un switch. Asignamos IP y comprobamos la conexión.
-* **Implementación:**
+#### 🗺️ Sesión 8: Mapa físico-lógico con Draw.io
+* **Actividad:** Elaboramos el diagrama físico-lógico del aula conectada, detallando dispositivos, medios y direccionamiento.  
+* **Implementación:**  
+  1. Boceto en papel según normas de simbología Cisco.  
+  2. Digitalización en **Draw.io** con capas y leyenda.  
+  3. Inserción de diagrama en portafolio y revisión por pares (modo comentario).  
+* **Criterios:** CE 7  
+* **Instrumentos:** Rúbrica de diagrama, portafolio digital, observación directa  
 
-  1. Iniciamos sesión en Cisco Netacad y accedemos a Packet Tracer.
-  2. Insertamos dispositivos y enlaces con cable directo.
-  3. Asignamos IP estáticas desde la interfaz de configuración.
-  4. Ejecutamos `ping` y capturamos resultados.
-* **Criterios:** 1.d, rat2.a
-* **Instrumentos:** Tarea práctica entregable, rúbrica de simulación.
+#### 🛠️ Sesión 9: Proyecto exprés «Conecta tu aula» (diseño + simulación)
+* **Actividad:** En equipos, diseñamos y simulamos la red completa del aula (cable + Wi-Fi), aplicando seguridad y buenas prácticas.  
+* **Implementación:**  
+  1. Distribución de roles (líder, red cableada, red Wi-Fi, documentación).  
+  2. Integración de diagrama Draw.io en Packet Tracer.  
+  3. Verificación de conectividad y resolución de incidencias.  
+  4. Preparación de presentación para la defensa (sesión 10).  
+* **Criterios:** CE 5-8, CE 33-36, CE 55, CE 61, CE 64  
+* **Instrumentos:** Rúbrica de proyecto, seguimiento de tareas (Planner), observación directa  
 
-### 🌐 Sesión 6: Análisis de paquetes de datos
+---
 
-* **Actividad:** Simulamos el envío de paquetes entre nodos en Packet Tracer y analizamos los pasos del modelo OSI.
-* **Implementación:**
+### Fase 3: Aplicación y evaluación (Sesiones 10 y 11)
 
-  1. Activamos el modo simulación.
-  2. Generamos tráfico entre dos PC.
-  3. Observamos la ruta de los paquetes y analizamos cada capa.
-  4. Completamos una tabla resumen por grupo.
-* **Criterios:** 1.d, rat1.a
-* **Instrumentos:** Tabla de observación, rúbrica de análisis.
+#### 🎤 Sesión 10: Presentación y defensa del proyecto «Conecta tu aula»
+* **Actividad:** Cada equipo expone su diseño y demostración funcional ante la clase, justificando decisiones técnicas y sostenibles.  
+* **Implementación:**  
+  1. Presentación de diagrama, configuración y pruebas en vivo.  
+  2. Preguntas de los compañeros y rúbrica de co-evaluación.  
+  3. Feedback del docente con recomendaciones de mejora.  
+* **Criterios:** CE 7, CE 34-36, CE 55, CE 61, CE 64  
+* **Instrumentos:** Rúbrica de presentación, co-evaluación, observación directa  
 
-### 🧪 Sesión 7: Fallos comunes en redes físicas
+#### 📝 Sesión 11: Evaluación final y reflexión
+* **Actividad:** Realizamos un test objetivo en **AULES**, checklist de PRL y una autoevaluación del aprendizaje.  
+* **Implementación:**  
+  1. Cuestionario de 20 preguntas (conceptos y casos).  
+  2. Revisión de checklist PRL aplicado durante las prácticas.  
+  3. Autoevaluación y establecimiento de nuevos objetivos personales.  
+* **Criterios:** CE 5-8, CE 33-36, CE 61  
+* **Instrumentos:** Cuestionario autocorregible, checklist PRL, rúbrica de autoevaluación  
 
-* **Actividad:** Introducimos errores de conexión (mal IP, cable incorrecto, puerto equivocado) y diagnosticamos con herramientas básicas.
-* **Implementación:**
+---  
 
-  1. Configuramos una red funcional.
-  2. Introducimos uno o más fallos intencionados.
-  3. Diagnosticamos el error usando `ipconfig`, tester de red y observación.
-  4. Proponemos y aplicamos una solución.
-* **Criterios:** 1.a, 1.d, rat2.a
-* **Instrumentos:** Registro de errores y soluciones, informe breve por pareja.
+## 5. Instrumentos de evaluación
 
-### 📡 Sesión 8: Comparativa entre red física y simulada
+| Instrumento | Evidencias | Sesiones |
+|-------------|-----------|----------|
+| Observación directa | Rúbrica de roles y PRL | Todas |
+| Rúbrica de prácticas | Cableado, Packet Tracer, Wi-Fi | 3-6 |
+| Cuestionario en AULES | Test teórico y casos prácticos | 1, 11 |
+| Portafolio digital | Diagrama de red + capturas CLI/GUI | 7-11 |
+| Rúbrica de proyecto | Diseño, sostenibilidad y defensa oral | 10-11 |
+| Auto/co-evaluación | Rúbrica simplificada | 11 |
 
-* **Actividad:** Comparamos el comportamiento de una red cableada real y su equivalente en simulación.
-* **Implementación:**
+---  
 
-  1. Ejecutamos pruebas de velocidad (`ping`, carga de archivos) en ambos entornos.
-  2. Registramos tiempos y diferencias.
-  3. Completamos una tabla comparativa y redactamos una conclusión grupal.
-* **Criterios:** 1.a, rat1.a
-* **Instrumentos:** Tabla comparativa + rúbrica de reflexión.
+## 📋 Rúbrica síntesis: Proyecto “Conecta tu aula”
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Aprobado (5-6) | Insuf. (1-4) |
+|----------|------------------|---------------|----------------|--------------|
+| Diagrama físico-lógico | Completo, legible y optimizado | Correcto, mínimos ajustes | Básico con errores menores | Incompleto/confuso |
+| Configuración TCP/IP | Funcional y documentada | Funcional, sin incidencia | Parcialmente funcional | No funcional |
+| Seguridad aplicada | WPA2 + buenas prácticas | Configuración WPA2 correcta | Seguridad mínima | Sin seguridad |
+| Presentación y defensa | Fluida, rigurosa, creativa | Clara y bien estructurada | Comprensible con vacíos | Difícil de seguir |
 
 ---
 
-## Fase 3: Aplicación (Sesiones 9 a 11)
+## 📊 Ponderación CE → RA
 
-### 🧩 Sesión 9: Diseño de una red para el aula
+| RA | Peso módulo |
+|----|-------------|
+| RA1 (CE 5-8) | 10 % |
+| RA5 (CE 33-36) | 15 % |
+| RAT 1-4 (extra) | +0,25 c/u |
 
-* **Actividad:** Aplicamos lo aprendido para diseñar una red local realista para nuestro aula de informática.
-* **Implementación:**
-
-  1. Definimos las necesidades del aula: número de ordenadores, impresoras, acceso a internet.
-  2. Dibujamos un plano del aula y ubicamos los dispositivos.
-  3. Determinamos el tipo de cableado, dispositivos de interconexión y direccionamiento.
-  4. Creamos un esquema digital con herramientas como Draw\.io o Lucidchart.
-* **Criterios:** 1.d, rat1.a, rat2.a
-* **Instrumentos:** Plano de red, presentación del diseño, rúbrica de propuesta técnica.
-
-### 🧪 Sesión 10: Implementación simulada de la red
-
-* **Actividad:** Reproducimos el diseño anterior en Packet Tracer.
-* **Implementación:**
-
-  1. Creamos un nuevo proyecto en Packet Tracer con todos los elementos del diseño.
-  2. Configuramos las IP y enlaces conforme al esquema previo.
-  3. Comprobamos conectividad con `ping` y resolvemos problemas.
-  4. Guardamos el archivo y documentamos la experiencia.
-* **Criterios:** 1.a, 1.d, rat1.a
-* **Instrumentos:** Archivo .pkt, rúbrica de simulación, captura de resultados.
-
-### 🧠 Sesión 11: Reflexión final y evaluación competencial
-
-* **Actividad:** Valoramos el trabajo realizado a lo largo de la unidad y reflexionamos sobre nuestras competencias.
-* **Implementación:**
-
-  1. Rellenamos una ficha de autoevaluación competencial.
-  2. Compartimos ideas clave aprendidas en una nube de palabras (Mentimeter).
-  3. Exponemos oralmente qué actividad nos ha resultado más útil y por qué.
-  4. Completamos un breve cuestionario tipo test de repaso general.
-* **Criterios:** 1.a, 1.d, rat2.a
-* **Instrumentos:** Ficha de autoevaluación, nube digital, observación directa, test final.
+*Calif. CE = media actividades evidenciadas · Peso CE → Nota RA → Nota Módulo*
 
 ---
+
+**¡Redes preparadas, vámonos al siguiente salto!** 🚀

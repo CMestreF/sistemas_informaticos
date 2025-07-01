@@ -1,12 +1,18 @@
 site_name: Sistemas Informáticos
 site_author: Carlos Mestre Ferrández
 site_description: Guía didáctica del módulo de Sistemas Informáticos - 1º DAW
+site_url: https://cmestref.github.io/sistemas_informaticos/
+
+repo_url: https://github.com/cmestref/sistemas_informaticos
+repo_name: cmestref/sistemas_informaticos
+edit_uri: edit/main/docs/
+
 theme:
-  name: material  
+  name: material
+  language: es
   palette:
     primary: blue
     accent: indigo
-  language: es
   features:
     - navigation.instant
     - navigation.sections
@@ -18,18 +24,19 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
-  copyright: "© 2025 Carlos Mestre. Todos los derechos reservados."
   favicon: img/favicon.ico
   logo: img/favicon.png
-  
+
 nav:
   - Visión general del módulo: index.md
+  #- Unidad 1 — Arquitectura y Hardware: Unidad1_Arquitectura_y_Hardware.md
   - Unidad 1: unidad1.md
   - Unidad 2: unidad2.md
   - Unidad 3: unidad3.md
   - Unidad 4: unidad4.md
   - Unidad 5: unidad5.md
   - Unidad 6: unidad6.md
+  # …
 
 markdown_extensions:
   - admonition
@@ -41,21 +48,20 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.highlight
   - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji
+      alternate_style: true  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tilde          # opcional
+  - pymdownx.keys           # opcional
   - toc:
       permalink: true
   - attr_list
   - md_in_html
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://cmestref.github.io/sistemas_informaticos/
-      name: GitHub
-
 plugins:
   - search
+  - git-revision-date-localized  # opcional
 
 extra_css:
   - stylesheets/extra.css
