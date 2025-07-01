@@ -29,13 +29,13 @@ theme:
 
 nav:
   - Visión general del módulo: index.md
-  #- Unidad 1 — Arquitectura y Hardware: Unidad1_Arquitectura_y_Hardware.md
   - Unidad 1: unidad1.md
   - Unidad 2: unidad2.md
   - Unidad 3: unidad3.md
   - Unidad 4: unidad4.md
   - Unidad 5: unidad5.md
   - Unidad 6: unidad6.md
+  - DUAL: dual.md
   # …
 
 markdown_extensions:

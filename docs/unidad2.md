@@ -1,9 +1,9 @@
 # 🌐 Unidad Didáctica 2 — Redes Básicas y Comunicaciones
-![Patch panel con latiguillos etiquetados](img/redes-basicas.png)
+![Patch panel con latiguillos etiquetados](img/redes_basicas.png)
 
 ## ⏱️ Temporalización global  
 - **Duración:** 18 h (11 sesiones) / 160 h  
-  - **Lunes:** 2 h · **Martes:** 1 h · **Miércoles:** 2 h  
+  - **Lunes:** 2 h · **Martes:** 2 h · **Miércoles:** 1 h  
 - **Bloque:** Fundamentos de Sistemas Informáticos  
 - **Secuencia anual:** UT 2 / 6  
 
