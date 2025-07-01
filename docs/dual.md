@@ -1,4 +1,5 @@
 ## 📚 9 · Formación Dual
+![Estudiante realizando formación en empresa](img/dual.jpg)
 
 ### 🏗️ Marco normativo
 * **Ley Orgánica 3/2022, de 31 de marzo**  
